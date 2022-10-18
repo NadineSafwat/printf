@@ -27,5 +27,12 @@ int print_string(va_list);
 int print_integer(va_list);
 int print_number(va_list args);
 int print_percent(__attribute__((unused))va_list list);
+int print_binary(va_list arglst);
+char *rev_string(char *s);
+void write_base(char *str);
+unsigned int base_len(unsigned int num, int base);
+char *_memcpy(char *dest, char *src, unsigned int n);
+int unsigned_integer(va_list list);
+int print_unsgined_number(unsigned int n);
 
 #endif

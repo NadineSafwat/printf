@@ -19,6 +19,12 @@ int unsigned_integer(va_list list)
 	return (print_unsgined_number(num));
 }
 
+/**
+ * print_unsgined_number - Prints an unsigned number
+ * @n: unsigned integer to be printed
+ * Return: The amount of numbers printed
+ */
+
 int print_unsgined_number(unsigned int n)
 {
 	int div;

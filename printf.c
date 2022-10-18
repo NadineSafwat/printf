@@ -6,15 +6,6 @@
  * Return: int
  */
 
-
-/**
- * _itoa - converts integaer to a string
- * @i: the integer
- * @strout: to save the string
- * @base: the base of ascii code
- * Return: char
- */
-
 int _printf(const char *format, ...)
 {
 	va_list ap;

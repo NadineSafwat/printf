@@ -1,10 +1,19 @@
 #include "main.h"
+#include <string.h>
+#include <stdarg.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _printf - function prints like printf
  * @format: a pointer to string
  * Return: int
  */
+
+int _printf(const char *format, ...);
+char* strrev(char *str);
+char* _itoa(int value, char* strout, int base);
 
 int _printf(const char *format, ...)
 {

@@ -8,6 +8,9 @@
  * Return: char
  */
 
+char* strrev(char *str);
+char* _itoa(int value, char* strout, int base);
+
 char* _itoa(int value, char* strout, int base)
 {
 	int n = abs(value);

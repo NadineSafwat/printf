@@ -39,6 +39,6 @@ char* _itoa(int value, char* strout, int base)
 	}
 	strout[i] = '\0';
 		
-        _strrev(strout);
+        strrev(strout);
         return (strout);
 }

@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strrev - reverses the string
+ * strrev - reverses the string
  * @str: a pointer to char
  * Return: char reversed
  */
 
-char* _strrev(char *str)
+char* strrev(char *str)
 {
         int i;
         int len = 0; //index of the string

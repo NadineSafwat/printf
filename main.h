@@ -8,8 +8,8 @@
 #include <stdlib.h>
 
 int _printf(const char *format, ...);
-char *_strrev(char *str);
-char *_itoa(int value, char *strout, int base);
+char* strrev(char *str);
+char* _itoa(int value, char* strout, int base);
 
 #endif
 
